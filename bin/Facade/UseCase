@@ -1,0 +1,7 @@
+It is a structural design pattern
+- It provides a unified interface to a set of interfaces in a collection of subsystems: defines a higher-level interface that
+makes the subsystems easier to use
+- Subsystems are built for multiple client applications but most applications use only a small subset
+- façade simplifies a process for most clients
+- The number of dependencies between a client and the implementation classes is large
+- façade reduces the number of dependencies by providing an interface that allows a level of isolation between them

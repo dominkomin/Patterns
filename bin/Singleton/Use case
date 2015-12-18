@@ -1,0 +1,9 @@
+Creational pattern, intent is to
+-ensure that only one instance of a class is created, and
+-to provide a global point of access to that object
+
+Useful when more than one instance of an object might result e.g. in
+-overuse of resources
+-incorrect behavior
+-inconsistent results
+-need for one global point of access

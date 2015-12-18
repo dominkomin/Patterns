@@ -1,0 +1,5 @@
+Used commonly in multi-threaded code
+- easy to implement since the code for producer and consumer is independent from each other (they just need to know about a shared object)
+- the producer does not need to know about the consumer; the same applies to the consumer
+- producer and consumer can work with different speed
+- separation of producer and consumer functionality result inmore readable and manageable code

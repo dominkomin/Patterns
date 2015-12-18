@@ -1,0 +1,16 @@
+Static factory method is a static method that returns an instance of a class. The intent is to gain control over object creation and
+delegate it from the constructor to a static method. The singleton implementation is a special case of static
+factory method, other common static factory methods:
+- getInstance()
+- newInstance()
+- forName()
+- valueOf(…)
+
+It is a creational pattern 
+- Handles object creation without specifying the exact class of the object that will be created
+- It defines an interface/abstract class for creating an object, but let the subclasses decide which actual class to
+instantiate; it lets a class defer instantiation to subclasses
+
+It separates responsibility
+- clients need to know how to use an object
+- factory needs to know what object to create exactly 

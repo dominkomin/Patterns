@@ -1,0 +1,11 @@
+It is a behavioral pattern
+- It provide an object, the null object, as a surrogate for the lack ofan object of a certain type
+- the null object provides a do nothing behavior to avoid special if blocks
+- the client is not aware if the real object or the null object is called so the if section is removed from client implementation
+
+The NullObject class is often implemented as a singleton
+- The null object pattern can be used with the factory pattern
+- the concrete class returned from a factory can be a real object or a null object
+- The null object pattern can be used with the template method pattern
+- a NullObject can be use to implement a concrete template that does nothing
+- Examples of null objects in the JDK can be found in the package java.util.Collections with methods emptyList(),emptyMap(), and emptySet()

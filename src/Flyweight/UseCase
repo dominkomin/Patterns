@@ -1,0 +1,5 @@
+It is a structural pattern
+Facilitates the reuse of many fine grained objects, making the utilization of large numbers of objects more efficient
+The reusable and variable parts of a class are broken into two classes to save resources:
+- intrinsic data: shared
+- extrinsic data: can be made external and passed in through arguments

@@ -1,0 +1,12 @@
+It is a structural pattern
+-If objects fit together you are fine: no need for an adapter
+-Sometimes, objects don’t fit together as they should because e.g. a class was modified
+-The adapter hides the adaptee's interface from the client
+
+Related to few other patterns
+-Decorator pattern
+-Façade pattern
+-Bridge pattern
+
+Design Principle: principle of least knowledge
+-only talk to your friends!

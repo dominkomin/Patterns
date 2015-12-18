@@ -1,0 +1,8 @@
+- It is a behavioral pattern
+- It defines the skeleton of an algorithm as sequence of methods and defers some steps for subclasses to implement
+- A template method that implements the algorithm is defined in a base class while the implementation of the specialized
+steps is deferred for other classes to redefine
+- certain common steps are defined in a base class
+- The specialized steps are
+- declared as abstract methods
+- overridden by subclasses to allow different behaviors

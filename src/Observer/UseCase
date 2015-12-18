@@ -1,0 +1,19 @@
+It is a behavioral pattern
+- The observer pattern implements a one-to-many relationship at run-time
+- a single object, the subject, can change state
+- one of more objects, the observers, are interested in the state
+of the subject and register their interest with it
+- when something changes in the subject, a notify message is sent to the observers
+- It supports decoupling among objects
+
+Pros:
+- subject and observers are loosely coupled
+- support for broadcast communication
+Cons:
+- difficult to follow the control flow
+- memory management
+- updates might be costly
+Known uses
+- Swing/GUI and listeners
+- Java Message Service
+- MVC framework

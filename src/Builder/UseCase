@@ -1,0 +1,12 @@
+- It is a creational pattern
+- Separates the construction of a complex object from its representation so that the same construction process can create different representations
+- Runtime control over step-by-step object creation process
+- New creation algorithm can be added without changing code
+
+- A static nested class Builder is defined inside the class Product whose object will be build by Builder
+- Builder has exactly the same set of fields as original class Product
+- Builder expose methods for setting attributes; each method returns the same Builder object
+- Builder is enriched with each method call
+- A method Builder.build() is defined to copy all builder field values into actual class and return object of original classProduct
+- Product has private constructor to create its object from build()
+method and prevent outsider to access its constructor

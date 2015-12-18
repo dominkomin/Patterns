@@ -1,0 +1,11 @@
+It is a creational pattern
+- It specifies the kind of objects to create using a prototype instance and creates new objects by copying that
+Use the prototype pattern when:
+- object creation should be decoupled from system behavior
+- object creation is time-consuming or complex
+
+- It hides the production of objects from the clients
+- In Java, it is built on the method clone() in java.lang.Object one needs to be careful about shallow copy and deep cloning
+- Java provides a simple interface Cloneable that provides an implementation of the prototype pattern
+- if you have an object that is Cloneable, a call to its clone() method creates a new instance of the object with same values
+- Related to the factory patterns

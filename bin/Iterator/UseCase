@@ -1,0 +1,7 @@
+An iterator is an object that allows to sequence through all elements of a collection without knowing their type
+- it is also known as cursor
+- The iterator pattern is a behavioral pattern that encapsulates iteration
+- The iterator pattern separates the implementation of the iteration from the collection itself
+- The iterator is a published interface
+- no need to expose any underlying details about the data
+structure that backs up the collection

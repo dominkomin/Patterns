@@ -1,0 +1,33 @@
+- A composite is an object composed of either individual
+items or other composites or a mix thereof
+- composites are objects that can hold themselves
+- Example: a drawing is a composite being composed of
+graphic primitives, like lines, rectangles, circles, etc.
+- each graphic primitive can be drawn, moved, and resized; the
+same operations can also be performed on the composite
+- manipulation of both primitive objects and composite objects
+in exactly the same way, without distinguishing between the
+them, simplifies code implementation and maintenance
+- In Java, GUI layout is an example of a composite
+- a panel may contain other panels each containing many widgets
+
+It is a structural pattern
+- It allows to compose objects into tree structures to
+represent part-whole hierarchies and lets clients treat
+individual objects and compositions of objects uniformly
+- It defines class hierarchies consisting of primitive objects
+and composite objects
+- primitive objects can be composed into more complex objects,
+which in turn can be composed
+- Every element in the structure (primitive and composite
+objects) operates with a uniform interface
+- adding new components is easy and client code remains
+unchanged 
+
+The composite design pattern lets you treat primitive and
+composite objects exactly the same way; this also
+happens in other frameworks and domains
+- the Apache Struts framework includes Tiles, a JSP tag library,
+that allows to compose a Web page from multiple JSPs
+- the Java GUI layout and widgets
+- the JUnit 3.x is a testing framework for Java (www.junit.org)

@@ -1,0 +1,7 @@
+It is a structural pattern
+- It decouples an abstraction from its implementation so that they two can vary independently
+It is used when both the class as well as what it does vary often:
+- encapsulate what varies
+- Favor aggregation over class inheritance
+- inheritance is still there!
+- do not use inheritance to combine across dimensions of variation

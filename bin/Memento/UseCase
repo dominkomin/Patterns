@@ -1,0 +1,12 @@
+It is a behavioral pattern
+- The intent is to capture and to externalize the internal state of an object so that it can be restored later without
+violating encapsulation
+- A memento object stores a snapshot of another object’sinternal state
+- Pattern variants:
+- standalone class
+- static inner class
+
+Mementos:
+- preserve encapsulation
+- can be very expensive
+- results in simpler Originator

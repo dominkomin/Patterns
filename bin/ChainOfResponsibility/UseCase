@@ -1,0 +1,6 @@
+It is a behavioral pattern
+- The intent of the pattern is to give more than one object the opportunity to handle a request by linking receiving
+objects together
+- It allows a number of classes to attempt to handle a request, independently of any other object along the chain
+- “handle or forward” model
+- The pattern is applied when more than one object may handle a request, and the handler is not known in advance

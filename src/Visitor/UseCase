@@ -1,0 +1,10 @@
+It is a behavioral design pattern
+- It makes it possible to apply an operation to a set of objects while decoupling the operation from the object structure i.e.
+without changing the classes of the elements on which it operates
+- useful if the operations should be performed across a collection of different objects
+- In order to operate on the original collection of object a new class is created
+
+Visitor uses double dispatch to let one add operations to classes without changing them
+- The operations get executed depending on the type of Visitor and the Element it visits
+- i.e. depending on the kind of request and types of two receivers, not one
+- Binding operations are done at run-time with accept() in lieu of statically with the element interface 

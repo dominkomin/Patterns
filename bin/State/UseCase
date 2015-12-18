@@ -1,0 +1,6 @@
+- It is a behavioral pattern
+- This pattern allows an object to alter its behavior whenits internal state changes
+- It encapsulates all behavior of a state into an object
+- Similar to the strategy pattern:
+- with the state pattern changes happen at runtime
+- with the strategy pattern the client decides what behavior to select

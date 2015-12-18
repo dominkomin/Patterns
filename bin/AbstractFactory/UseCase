@@ -1,0 +1,10 @@
+It is a creational pattern
+
+It provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+With the factory method pattern, a factory can create different objects at run time
+- An object is responsible for creating things for a client to use
+
+With the abstract factory pattern one interface is used for creating different products
+- clients get and use an instance of the abstract factory object to create products
+- clients are decoupled from the actual concrete products returned by each factory

@@ -1,0 +1,12 @@
+It is a behavioral pattern
+- It decouples an object that invokes an operation from theobject that receives the request to execute it
+- It makes it possible to vary when and how a request toexecute a certain command is fulfilled
+
+Uses
+- undo operations
+- Swing GUIs especially buttons and menus
+- thread pools
+
+Drawbacks
+- need to create a concrete command for each request
+- may require large number of objects

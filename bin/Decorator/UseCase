@@ -1,0 +1,7 @@
+It is a structural pattern
+- It makes it possible to modify the behavior of individual objects at runtime without having to create
+a new derived class
+- The decorator is an object that modifies the behavior of, or adds features to another object
+- features added to a simple object without disrupting its interface
+- Start with a simple object with basic functionalities and later “wrap/decorate” it with more capabilities
+through composition and delegation

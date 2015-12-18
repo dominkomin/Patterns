@@ -1,0 +1,8 @@
+It is a behavioral pattern
+- It defines a group of classes that represent a set of possible behaviors that can be plugged into an application, changing the
+functionality on the fly
+- It allows changing the behavior of an object dynamicallywithout changing the object itself
+- Strategies provide a way to configure one class with manybehaviors when
+- related classes differ only in their behavior
+- an algorithm must be selected at run-time
+- want to add to the possible ways to perform an action
